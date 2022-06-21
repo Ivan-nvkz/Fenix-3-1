@@ -4,11 +4,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
    // Смена цвета надписи кнопки спойлера на странице отдела снабжения 
 
-   const toggleColorBtns = document.querySelectorAll('.buy-page__item-title ');
+   const toggleColorBtns = document.querySelectorAll('.color__btns');
 
    toggleColorBtns.forEach(toggleColorBtn => {
       toggleColorBtn.addEventListener('click', function () {
-         toggleColorBtn.classList.toggle('buy-page__item-title--active');
+         toggleColorBtn.classList.toggle('color__btns--active');
       });
    });
 

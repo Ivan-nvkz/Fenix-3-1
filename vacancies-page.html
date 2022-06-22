@@ -5,7 +5,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Феникс</title>
+   <title>Вакансии</title>
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
@@ -17,7 +17,7 @@
 
    <div class="wrapper">
       <div class="btn__up">&uarr;</div>
-      <header class="header">
+      <header class="header header__production-page">
          <div class="header__inner">
             <div class="header__top">
                <div class="header__top-inner">
@@ -157,7 +157,7 @@
                            <a class="menu__link" href="#">Блог</a>
                         </li>
                         <li class="menu__item">
-                           <a class="menu__link" href="vacancies-page.html">Вакансии</a>
+                           <a class="menu__link" href="#">Вакансии</a>
                         </li>
                         <li class="menu__item">
                            <a class="menu__link" href="#">О Нас</a>
@@ -170,140 +170,296 @@
                </div>
             </div>
          </div>
+      </header>
 
-         <div class="header__content">
-            <div class="header__color-circle">
-               <div class="header__dark-bg"></div>
-               <div class="container">
-                  <div class="header__content-slider">
-                     <div class="header-slider">
-
-                        <div class="header-slider__item">
-                           <h2 class="header-slider__title">Производство цветных <br> металлов и сплавов</h2>
-                           <p class="header-slider__info  header-slider__info-two">
-                              ООО «НПО Феникс» занимается производством цветных металлов и сплавов с действующей
-                              системой менеджмента качества, которая соответствует ГОСТ Р ISO 9001-2015 (ISO 9001:2015).
-                              Располагает собственным производством с профессиональным оборудованием и высококлассными
-                              специалистами.
-                           </p>
-                           <a class="header-slider__btn" href="#">
-                              <p class="slider__btn-text">
-                                 Подробнее
-                              </p>
-                              <p class="slider__btn-img">
-                                 <svg width="13" height="12" viewBox="0 0 13 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                       d="M9.72386 6.66672H0V5.33338H9.72386L5.5286 1.13812L6.47141 0.195312L12.2761 6.00005L6.47141 11.8048L5.5286 10.862L9.72386 6.66672Z"
-                                       fill="white" />
-                                 </svg>
-                              </p>
-                           </a>
-                        </div>
-
-                        <div class="header-slider__item">
-                           <h2 class="header-slider__title">Собственная <br> лаборатория</h2>
-                           <p class="header-slider__info">
-                              ООО НПО «Феникс» обладает собственной, аккредитованной и сертифицированной лабораторией по
-                              определению химического состава черных и цветных металлов и их сплавов.
-                           </p>
-                           <a class="header-slider__btn" href="#">
-                              <p class="slider__btn-text">
-                                 Подробнее
-                              </p>
-                              <p class="slider__btn-img">
-                                 <svg width="13" height="12" viewBox="0 0 13 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                       d="M9.72386 6.66672H0V5.33338H9.72386L5.5286 1.13812L6.47141 0.195312L12.2761 6.00005L6.47141 11.8048L5.5286 10.862L9.72386 6.66672Z"
-                                       fill="white" />
-                                 </svg>
-                              </p>
-                           </a>
-                        </div>
-
-                     </div>
-                  </div>
+      <div class="breadcrumbs">
+         <div class="container">
+            <div class="breadcrumbs__body">
+               <div class="breadcrumbs__inner">
+                  <ul class="breadcrumbs__list mobile-overflow ">
+                     <li class="breadcrumbs__list-item">
+                        <a class="breadcrumbs__list-item-link breadcrumbs__list-item-link--great "
+                           href="index.html">Главная</a>
+                     </li>
+                     <li class="breadcrumbs__list-item">
+                        <span class="breadcrumbs__list-item-link--color">Вакансии</span>
+                     </li>
+                  </ul>
                </div>
             </div>
          </div>
-      </header>
+      </div>
 
       <main class="main">
-         <section class="production">
+
+         <section class="vacancies">
             <div class="container">
-               <div class="production__inner">
-                  <div class="production__content">
-                     <div class="section-title__block  production-title__block">
-                        <h2 class="section-title production-title">Производство нашей компании</h2>
-                        <h5 class="section__sub-title production__sub-title">Цветные металлы и сплавы</h5>
-                        <p class="section-title__text production-title__text">
-                           Из цветных металлов в чистом виде и в виде сплавов широко используются: цинк, бронза, олово,
-                           различные припои и прочее.
-                        </p>
-                     </div>
-                     <a class="header-slider__btn  production-slider__btn " href="production-page.html"
-                        data-da=".production-slider__inner,767,last">
-                        <p class="slider__btn-text  production__btn-text">
-                           Вся продукция
-                        </p>
-                        <p class="slider__btn-img production__btn-img  ">
-                           <svg width="14" height="12" viewBox="0 0 14 12" fill="none"
+               <div class="section-title__block  vacancies-title__block">
+                  <h2 class="section-title vacancies-title">Вакансии НПО «Феникс»</h2>
+                  <p class="section-title__text vacancies-title__text">
+                     Предлагаем работу в компании по производству цветных металлов и сплавов
+                  </p>
+               </div>
+               <div class="vacancies__inner">
+                  <div class="vacancies__body">
+                     <div data-spollers=",max" class="vacancies__body-inner block">
+                        <button type="button" data-spoller class="color__btns vacancies__title block__title">
+                           Инженер -технолог (по сопровождению гальванического производства)
+                           <svg width="20" height="18" viewBox="0 0 20 18" fill="none"
                               xmlns="http://www.w3.org/2000/svg">
                               <path fill-rule="evenodd" clip-rule="evenodd"
-                                 d="M12.4532 0H1.54415C0.874716 0 0.332031 0.596954 0.332031 1.33333V2.66667C0.332031 3.40305 0.874716 4 1.54415 4H12.4532C13.1227 4 13.6654 3.40305 13.6654 2.66667V1.33333C13.6654 0.596954 13.1227 0 12.4532 0ZM1.54415 5.33301H12.4532C13.1227 5.33301 13.6654 5.92996 13.6654 6.66634V7.99967C13.6654 8.73605 13.1227 9.33301 12.4532 9.33301H1.54415C0.874716 9.33301 0.332031 8.73605 0.332031 7.99967V6.66634C0.332031 5.92996 0.874716 5.33301 1.54415 5.33301ZM1.66406 6.66602V7.99935H12.3307V6.66602H1.66406ZM1.66406 1.33301V2.66634H12.3307V1.33301H1.66406ZM8.33203 10.667H0.332031V12.0003H8.33203V10.667Z"
-                                 fill="white" />
+                                 d="M8 0H12C13.1046 0 14 0.89543 14 2V3H18C19.1046 3 20 3.89543 20 5V16C20 17.1046 19.1046 18 18 18H2C0.89543 18 0 17.1046 0 16V5C0 3.89543 0.89543 3 2 3H6V2C6 0.89543 6.89543 0 8 0ZM2 5H6H14H18V10H11H9H2V5ZM2 16V12H9V13H11V12H18V16H2ZM12 2V3H8V2H12Z"
+                                 fill="#BF9D77" />
                            </svg>
-                        </p>
-                     </a>
+                        </button>
+                        <ul class="vacancies__items">
+                           <li class="vacancies__item">
+                              <h5 class="vacancies-item__title">
+                                 Должностные обязанности:
+                              </h5>
+                              <ul class="vacancies-item__info">
+                                 <li class="vacancies-item__text">
+                                    плавка цветных металлов и сплавов.
+                                 </li>
+                              </ul>
+                           </li>
+
+                           <li class="vacancies__item">
+                              <h5 class="vacancies-item__title">
+                                 Требования:
+                              </h5>
+                              <ul class="vacancies-item__info">
+                                 <li class="vacancies-item__text vacancies-item__text--requirements">
+                                    Опыт работы на данной позиции не менее 3-х лет.
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--requirements">
+                                    Навыки работы с плавильными печами.
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--requirements">
+                                    Знание температур и режимов плавки металла.
+                                 </li>
+                              </ul>
+                           </li>
+
+                           <li class="vacancies__item">
+                              <h5 class="vacancies-item__title">
+                                 Условия работы:
+                              </h5>
+                              <ul class="vacancies-item__info">
+                                 <li class="vacancies-item__text vacancies-item__text--conditions">
+                                    график работы сменный;
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--conditions">
+                                    официальное трудоустройство;
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--conditions">
+                                    оплата отпуска и больничного по законодательству;
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--conditions">
+                                    зарплата два раза в месяц без задержек, оговаривается при собеседовании;
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--conditions">
+                                    работа на производственном предприятии в промзоне Металлострой.
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </div>
                   </div>
-                  <div class="production-slider__inner">
-                     <div class="production-slider">
-                        <div class="production-slider__item">
-                           <a class="production-slider__item-inner" href="production-page.html">
-                              <div class="production-title__body">
-                                 <p class="production-slider__title">
-                                    Припои на основе индия ПОИн10, ПОИн52, ПОИн90 и другие
-                                 </p>
-                                 <p class="production-slider__text">
-                                    фольга, пруток, проволока, слиток
-                                 </p>
-                              </div>
-                              <div class="production-slider__img">
-                                 <img class="production__img" src="images/slider-production/11.jpg" alt="">
-                              </div>
-                           </a>
-                        </div>
-                        <div class="production-slider__item">
-                           <a class="production-slider__item-inner" href="production-page.html">
-                              <div class="production-title__body">
-                                 <p class="production-slider__title">
-                                    Сплавы цинковые литейные ЦАМ4-1, ЦА4-0 и другие
-                                 </p>
-                                 <p class="production-slider__text">
-                                    блок, чушка
-                                 </p>
-                              </div>
-                              <div class="production-slider__img">
-                                 <img class="production__img" src="images/slider-production/12.jpg" alt="">
-                              </div>
-                           </a>
-                        </div>
-                        <div class="production-slider__item">
-                           <a class="production-slider__item-inner" href="production-page.html">
-                              <div class="production-title__body">
-                                 <p class="production-slider__title">
-                                    Олово О1, О1 пч, О2
-                                 </p>
-                                 <p class="production-slider__text">
-                                    чушка, пруток, проволока, аноды, гранулы
-                                 </p>
-                              </div>
-                              <div class="production-slider__img">
-                                 <img class="production__img" src="images/slider-production/13.jpg" alt="">
-                              </div>
-                           </a>
-                        </div>
+                  <div class="vacancies__body">
+                     <div data-spollers=",max" class="vacancies__body-inner block">
+                        <button type="button" data-spoller class="color__btns vacancies__title block__title">
+                           Плавильщик металла и сплавов литейного цеха
+                           <svg width="20" height="18" viewBox="0 0 20 18" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd"
+                                 d="M8 0H12C13.1046 0 14 0.89543 14 2V3H18C19.1046 3 20 3.89543 20 5V16C20 17.1046 19.1046 18 18 18H2C0.89543 18 0 17.1046 0 16V5C0 3.89543 0.89543 3 2 3H6V2C6 0.89543 6.89543 0 8 0ZM2 5H6H14H18V10H11H9H2V5ZM2 16V12H9V13H11V12H18V16H2ZM12 2V3H8V2H12Z"
+                                 fill="#BF9D77" />
+                           </svg>
+                        </button>
+                        <ul class="vacancies__items">
+                           <li class="vacancies__item">
+                              <h5 class="vacancies-item__title">
+                                 Должностные обязанности:
+                              </h5>
+                              <ul class="vacancies-item__info">
+                                 <li class="vacancies-item__text">
+                                    плавка цветных металлов и сплавов.
+                                 </li>
+                              </ul>
+                           </li>
+
+                           <li class="vacancies__item">
+                              <h5 class="vacancies-item__title">
+                                 Требования:
+                              </h5>
+                              <ul class="vacancies-item__info">
+                                 <li class="vacancies-item__text vacancies-item__text--requirements">
+                                    Опыт работы на данной позиции не менее 3-х лет.
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--requirements">
+                                    Навыки работы с плавильными печами.
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--requirements">
+                                    Знание температур и режимов плавки металла.
+                                 </li>
+                              </ul>
+                           </li>
+
+                           <li class="vacancies__item">
+                              <h5 class="vacancies-item__title">
+                                 Условия работы:
+                              </h5>
+                              <ul class="vacancies-item__info">
+                                 <li class="vacancies-item__text vacancies-item__text--conditions">
+                                    график работы сменный;
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--conditions">
+                                    официальное трудоустройство;
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--conditions">
+                                    оплата отпуска и больничного по законодательству;
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--conditions">
+                                    зарплата два раза в месяц без задержек, оговаривается при собеседовании;
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--conditions">
+                                    работа на производственном предприятии в промзоне Металлострой.
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="vacancies__body">
+                     <div data-spollers=",max" class="vacancies__body-inner block">
+                        <button type="button" data-spoller class="color__btns vacancies__title block__title">
+                           Сменный мастер литейного цеха
+                           <svg width="20" height="18" viewBox="0 0 20 18" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd"
+                                 d="M8 0H12C13.1046 0 14 0.89543 14 2V3H18C19.1046 3 20 3.89543 20 5V16C20 17.1046 19.1046 18 18 18H2C0.89543 18 0 17.1046 0 16V5C0 3.89543 0.89543 3 2 3H6V2C6 0.89543 6.89543 0 8 0ZM2 5H6H14H18V10H11H9H2V5ZM2 16V12H9V13H11V12H18V16H2ZM12 2V3H8V2H12Z"
+                                 fill="#BF9D77" />
+                           </svg>
+                        </button>
+                        <ul class="vacancies__items">
+                           <li class="vacancies__item">
+                              <h5 class="vacancies-item__title">
+                                 Должностные обязанности:
+                              </h5>
+                              <ul class="vacancies-item__info">
+                                 <li class="vacancies-item__text">
+                                    плавка цветных металлов и сплавов.
+                                 </li>
+                              </ul>
+                           </li>
+
+                           <li class="vacancies__item">
+                              <h5 class="vacancies-item__title">
+                                 Требования:
+                              </h5>
+                              <ul class="vacancies-item__info">
+                                 <li class="vacancies-item__text vacancies-item__text--requirements">
+                                    Опыт работы на данной позиции не менее 3-х лет.
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--requirements">
+                                    Навыки работы с плавильными печами.
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--requirements">
+                                    Знание температур и режимов плавки металла.
+                                 </li>
+                              </ul>
+                           </li>
+
+                           <li class="vacancies__item">
+                              <h5 class="vacancies-item__title">
+                                 Условия работы:
+                              </h5>
+                              <ul class="vacancies-item__info">
+                                 <li class="vacancies-item__text vacancies-item__text--conditions">
+                                    график работы сменный;
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--conditions">
+                                    официальное трудоустройство;
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--conditions">
+                                    оплата отпуска и больничного по законодательству;
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--conditions">
+                                    зарплата два раза в месяц без задержек, оговаривается при собеседовании;
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--conditions">
+                                    работа на производственном предприятии в промзоне Металлострой.
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="vacancies__body">
+                     <div data-spollers=",max" class="vacancies__body-inner block">
+                        <button type="button" data-spoller class="color__btns vacancies__title block__title">
+                           Электромонтер-электрик по ремонту и обслуживанию электрооборудования на производстве
+                           (эксплуатационщик)
+                           <svg width="20" height="18" viewBox="0 0 20 18" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd"
+                                 d="M8 0H12C13.1046 0 14 0.89543 14 2V3H18C19.1046 3 20 3.89543 20 5V16C20 17.1046 19.1046 18 18 18H2C0.89543 18 0 17.1046 0 16V5C0 3.89543 0.89543 3 2 3H6V2C6 0.89543 6.89543 0 8 0ZM2 5H6H14H18V10H11H9H2V5ZM2 16V12H9V13H11V12H18V16H2ZM12 2V3H8V2H12Z"
+                                 fill="#BF9D77" />
+                           </svg>
+                        </button>
+                        <ul class="vacancies__items">
+                           <li class="vacancies__item">
+                              <h5 class="vacancies-item__title">
+                                 Должностные обязанности:
+                              </h5>
+                              <ul class="vacancies-item__info">
+                                 <li class="vacancies-item__text">
+                                    плавка цветных металлов и сплавов.
+                                 </li>
+                              </ul>
+                           </li>
+
+                           <li class="vacancies__item">
+                              <h5 class="vacancies-item__title">
+                                 Требования:
+                              </h5>
+                              <ul class="vacancies-item__info">
+                                 <li class="vacancies-item__text vacancies-item__text--requirements">
+                                    Опыт работы на данной позиции не менее 3-х лет.
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--requirements">
+                                    Навыки работы с плавильными печами.
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--requirements">
+                                    Знание температур и режимов плавки металла.
+                                 </li>
+                              </ul>
+                           </li>
+
+                           <li class="vacancies__item">
+                              <h5 class="vacancies-item__title">
+                                 Условия работы:
+                              </h5>
+                              <ul class="vacancies-item__info">
+                                 <li class="vacancies-item__text vacancies-item__text--conditions">
+                                    график работы сменный;
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--conditions">
+                                    официальное трудоустройство;
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--conditions">
+                                    оплата отпуска и больничного по законодательству;
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--conditions">
+                                    зарплата два раза в месяц без задержек, оговаривается при собеседовании;
+                                 </li>
+                                 <li class="vacancies-item__text vacancies-item__text--conditions">
+                                    работа на производственном предприятии в промзоне Металлострой.
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
                      </div>
                   </div>
                </div>
@@ -311,325 +467,39 @@
          </section>
 
 
-
-         <section class="services">
+         <section class="laboratory-director vacancies-director  ">
             <div class="container">
-               <div class="section-title__block  services-title__block">
-                  <h2 class="section-title services-title">Наши услуги</h2>
-                  <h5 class="section__sub-title services__sub-title">Что мы делаем для Вас</h5>
-                  <p class="section-title__text services-title__text">
-                     Наше предприятие предоставляет своим партнёрам все необходимые услуги.
-                  </p>
-               </div>
-               <div class="services__inner">
-                  <ul class="services__items">
-                     <li class="services__item">
-                        <div class="services__body">
-                           <div class="services__hover-logo">
-                              <div class="services__picture">
-                                 <img class="services__images" src="images/services/1.jpg" alt="изображение ">
-                              </div>
-                           </div>
-                           <div class="services__info">
-                              <p class="services__title">
-                                 Доставка продукции собственным автотранспортом
-                              </p>
-                              <p class="services__text">
-                                 ООО НПО «Феникс» предоставляет услуги по доставке продукции до покупателя. Мы
-                                 беспечиваем
-                                 оперативную доставку нашей
-                              </p>
-                              <a class="services__btn" href="#">
-                                 Подробнее
-                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                       d="M7.79289 5.50004H0.5V4.50004H7.79289L4.64645 1.35359L5.35355 0.646484L9.70711 5.00004L5.35355 9.35359L4.64645 8.64649L7.79289 5.50004Z"
-                                       fill="#BF9D77" />
-                                 </svg>
-                              </a>
-                           </div>
+               <div class="laboratory-director__inner">
+                  <h6 class="laboratory-director__title">
+                     Начальник отдела кадров
+                  </h6>
+                  <ul class="laboratory-director__items">
+                     <li class="laboratory-director__item laboratory-director__item-name">
+                        <div class="director__contacts">
+                           <p class="laboratory-director__name">Никитичева Анна <br> Николаевна</p>
                         </div>
                      </li>
-                     <li class="services__item">
-                        <div class="services__body">
-                           <div class="services__hover-logo">
-                              <div class="services__picture">
-                                 <img class="services__images" src="images/services/2.png" alt="изображение ">
-                              </div>
-                           </div>
-                           <div class="services__info">
-                              <p class="services__title">
-                                 Консультационные услуги для предприятий и литейных производств
-                              </p>
-                              <p class="services__text">
-                                 Консультационные услуги для предприятий горячего цинкования и литейных производств
-                              </p>
-                              <a class="services__btn" href="#">
-                                 Подробнее
-                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                       d="M7.79289 5.50004H0.5V4.50004H7.79289L4.64645 1.35359L5.35355 0.646484L9.70711 5.00004L5.35355 9.35359L4.64645 8.64649L7.79289 5.50004Z"
-                                       fill="#BF9D77" />
-                                 </svg>
-                              </a>
-                           </div>
-                        </div>
+                     <li class="laboratory-director__item laboratory-director__item-phone">
+                        <p class="director__contacts director__contacts-phone">
+                           <span class="director__phone-text">Телефон:</span> <br>
+                           <a class="director__phone-number" href="tel:88123390344"> 8 (812) 339 03 44</a>
+                        </p>
                      </li>
-                     <li class="services__item">
-                        <div class="services__body">
-                           <div class="services__hover-logo">
-                              <div class="services__picture">
-                                 <img class="services__images" src="images/services/3.jpg" alt="изображение ">
-                              </div>
-                           </div>
-                           <div class="services__info">
-                              <p class="services__title">
-                                 Лабораторное исследование <br> металлов и сплавов
-                              </p>
-                              <p class="services__text">
-                                 Наша компания предлагает услуги по определению химического состава черных и цветных
-                                 металлов и сплавов.
-                              </p>
-                              <a class="services__btn" href="#">
-                                 Подробнее
-                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                       d="M7.79289 5.50004H0.5V4.50004H7.79289L4.64645 1.35359L5.35355 0.646484L9.70711 5.00004L5.35355 9.35359L4.64645 8.64649L7.79289 5.50004Z"
-                                       fill="#BF9D77" />
-                                 </svg>
-                              </a>
-                           </div>
-                        </div>
+                     <li class="laboratory-director__item laboratory-director__item-mail">
+                        <p class="director__contacts">
+                           <span class="director__phone-text">Email: </span> <br>
+                           <a class="director__phone-mail"
+                              href="mailto:nikiticheva@npo-fenix.ru">nikiticheva@npo-fenix.ru</a>
+                        </p>
                      </li>
                   </ul>
                </div>
             </div>
          </section>
 
-         <section class="partners">
-            <div class="container">
-               <div class="partners__inner">
-                  <div class="partners__content">
-                     <div class="section-title__block  partners-title__block">
-                        <h2 class="section-title partners-title">Наши партнёры</h2>
-                        <h5 class="section__sub-title partners__sub-title">Партнёры НПО «ФЕНИКС»</h5>
-                        <p class="section-title__text partners-title__text">
-                           Наша компания успешно развивается на рынке металлов и сплавов, активно участвует в гос
-                           закупках
-                           и
-                           является надежным поставщиком.
-                        </p>
-                     </div>
-                  </div>
-                  <div class="partners-slider__inner">
-                     <div class="partners-slider">
-                        <div class="partners-slider__item">
-                           <ul class="list__items">
-                              <li class="list__item">
-                                 <img class="partners-slider__img" src="images/slider-partners/1.png" alt="">
-                              </li>
-                              <li class="list__item">
-                                 <img class="partners-slider__img" src="images/slider-partners/2.png" alt="">
-                              </li>
-                              <li class="list__item">
-                                 <img class="partners-slider__img" src="images/slider-partners/3.png" alt="">
-                              </li>
-                              <li class="list__item">
-                                 <img class="partners-slider__img" src="images/slider-partners/4.png" alt="">
-                              </li>
-                              <li class="list__item">
-                                 <img class="partners-slider__img" src="images/slider-partners/5.png" alt="">
-                              </li>
-                              <li class="list__item">
-                                 <img class="partners-slider__img" src="images/slider-partners/6.png" alt="">
-                              </li>
-                              <li class="list__item">
-                                 <img class="partners-slider__img" src="images/slider-partners/7.png" alt="">
-                              </li>
-                              <li class="list__item">
-                                 <img class="partners-slider__img" src="images/slider-partners/8.png" alt="">
-                              </li>
-                              <li class="list__item">
-                                 <img class="partners-slider__img" src="images/slider-partners/9.png" alt="">
-                              </li>
-                           </ul>
-                        </div>
-                        <div class="partners-slider__item">
-                           <ul class="list__items">
-                              <li class="list__item">
-                                 <img class="partners-slider__img" src="images/slider-partners/10.png" alt="">
-                              </li>
-                              <li class="list__item">
-                                 <img class="partners-slider__img" src="images/slider-partners/11.png" alt="">
-                              </li>
-                              <li class="list__item">
-                                 <img class="partners-slider__img" src="images/slider-partners/12.png" alt="">
-                              </li>
-                              <li class="list__item">
-                                 <img class="partners-slider__img" src="images/slider-partners/13.png" alt="">
-                              </li>
-                              <li class="list__item">
-                                 <img class="partners-slider__img" src="images/slider-partners/14.png" alt="">
-                              </li>
-                              <li class="list__item">
-                                 <img class="partners-slider__img" src="images/slider-partners/15.png" alt="">
-                              </li>
-                              <li class="list__item">
-                                 <img class="partners-slider__img" src="images/slider-partners/16.png" alt="">
-                              </li>
-                              <li class="list__item">
-                                 <img class="partners-slider__img" src="images/slider-partners/17.png" alt="">
-                              </li>
-                              <li class="list__item">
-                                 <img class="partners-slider__img" src="images/slider-partners/18.png" alt="">
-                              </li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
 
-         <section class="blog">
-            <div class="container">
-               <div class="section-title__block  blog-title__block">
-                  <h2 class="section-title blog-title">Блог</h2>
-                  <h5 class="section__sub-title blog__sub-title">Последние статьи</h5>
-               </div>
-               <div class="blog__inner">
-                  <div class="blog__body">
-                     <ul class=" blog__items">
-                        <li class=" blog__item">
-                           <div class="blog__body-inner">
-                              <div class="blog__picture">
-                                 <img class="blog__images" src="images/blog-1.jpg" alt="изображение ">
-                              </div>
-                              <div class="blog__info ">
-                                 <div class="blog__info-wrapper">
-                                    <h3 class="blog__title ">
-                                       Вторая жизнь металлолома
-                                    </h3>
-                                    <p class="blog__data ">
-                                       20-10-2021, 08:10
-                                       <span class="blog__data-number">30</span>
-                                    </p>
-                                    <p class="blog__text">
-                                       Сдача металлолома позволяет многим организациям, не только навести порядок на
-                                       своей
-                                       территории, но и получить весомый доход.
-                                    </p>
-                                 </div>
-                                 <a class="blog__btn" href="#">
-                                    Подробнее
-                                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
-                                       xmlns="http://www.w3.org/2000/svg">
-                                       <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M7.79289 5.50004H0.5V4.50004H7.79289L4.64645 1.35359L5.35355 0.646484L9.70711 5.00004L5.35355 9.35359L4.64645 8.64649L7.79289 5.50004Z"
-                                          fill="#BF9D77" />
-                                    </svg>
-                                 </a>
-                              </div>
-                           </div>
-                        </li>
-                        <li class=" blog__item">
-                           <div class="blog__body-inner">
-                              <div class="blog__picture">
-                                 <img class="blog__images" src="images/blog-2.jpg" alt="изображение ">
-                              </div>
-                              <div class="blog__info ">
-                                 <div class="blog__info-wrapper">
-                                    <h3 class="blog__title ">
-                                       Цветной металлопрокат: особенности и разновидности
-                                    </h3>
-                                    <p class="blog__data ">
-                                       12-10-2021, 10:13
-                                       <span class="blog__data-number">35</span>
-                                    </p>
-                                    <p class="blog__text">
-                                       Цветной металлопрокат применяют сегодня в машиностроении и электронике,
-                                       военном
-                                       производстве и строительстве, авиастроении и не только.
-                                    </p>
-                                 </div>
-                                 <a class="blog__btn" href="#">
-                                    Подробнее
-                                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
-                                       xmlns="http://www.w3.org/2000/svg">
-                                       <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M7.79289 5.50004H0.5V4.50004H7.79289L4.64645 1.35359L5.35355 0.646484L9.70711 5.00004L5.35355 9.35359L4.64645 8.64649L7.79289 5.50004Z"
-                                          fill="#BF9D77" />
-                                    </svg>
-                                 </a>
-                              </div>
-                           </div>
-                        </li>
-                     </ul>
-                  </div>
-                  <aside class="blog__aside">
-                     <div class="aside-blog__inner">
-                        <ul class="aside-blog__items">
-                           <li class="aside-blog__item">
-                              <a class="aside-item__box" href="#">
-                                 <div class="aside__info-wrapper ">
-                                    <h3 class="aside-item__title">
-                                       Национальный сертификат лидера отрасли России
-                                    </h3>
-                                    <p class="aside__data ">
-                                       25-05-2022, 13:19
-                                       <span class="aside__data-number">13</span>
-                                    </p>
-                                 </div>
-                              </a>
-                           </li>
-                           <li class="aside-blog__item">
-                              <a class="aside-item__box" href="#">
-                                 <div class=" aside__info-wrapper ">
-                                    <h3 class="aside-item__title">
-                                       Цветной металлопрокат: особенности и разновидности
-                                    </h3>
-                                    <p class="aside__data ">
-                                       25-04-2022, 15:19
-                                       <span class="aside__data-number">15</span>
-                                    </p>
-                                 </div>
-                              </a>
-                           </li>
-                           <li class="aside-blog__item">
-                              <a class="aside-item__box" href="#">
-                                 <div class=" aside__info-wrapper ">
-                                    <h3 class="aside-item__title">
-                                       Вторая жизнь металлолома
-                                    </h3>
-                                    <p class="aside__data ">
-                                       25-03-2021, 16:15
-                                       <span class="aside__data-number">18</span>
-                                    </p>
-                                 </div>
-                              </a>
-                           </li>
-                           <li class="aside-blog__item">
-                              <a class="aside-item__box" href="#">
-                                 <div class=" aside__info-wrapper ">
-                                    <h3 class="aside-item__title">
-                                       Новая производственная линия припоев SAC 0307
-                                    </h3>
-                                    <p class="aside__data ">
-                                       25-01-2021, 13:19
-                                       <span class="aside__data-number">50</span>
-                                    </p>
-                                 </div>
-                              </a>
-                           </li>
-                        </ul>
-                     </div>
-                  </aside>
-               </div>
-            </div>
-         </section>
+
+
 
 
       </main>
@@ -641,13 +511,13 @@
                   <nav class="menu footer__menu">
                      <ul class="menu__list">
                         <li class="menu__item">
-                           <a class="menu__link  footer-menu__link" href="production-page.html">
+                           <a class="menu__link  footer-menu__link" href="#">
                               Производство
                               <span class="products__sub-text">продукция</span>
                            </a>
                         </li>
                         <li class="menu__item">
-                           <a class="menu__link  footer-menu__link" href="buy-page.html">Купим</a>
+                           <a class="menu__link  footer-menu__link" href="#">Купим</a>
                         </li>
                         <li class="menu__item">
                            <a class="menu__link  footer-menu__link" href="#">
@@ -811,6 +681,8 @@
 
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <!-- <script src="js/more.js"></script> -->
+   <script src="js/toggle-color-btn-lab.js"></script>
    <script src="js/main.min.js"></script>
 </body>
 

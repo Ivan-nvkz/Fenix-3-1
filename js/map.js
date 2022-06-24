@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
-   // Карта ==========================================================
+   
    const map = L.map('map',
       {
          scrollWheelZoom: false
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
          .bindPopup(title);
    });
 
-   // Карта ==========================================================
+  
 
 
 

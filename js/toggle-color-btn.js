@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
-   // Смена цвета надписи кнопки спойлера на странице отдела снабжения 
+ 
 
    const toggleColorBtns = document.querySelectorAll('.buy-page__item-title ');
 
@@ -12,6 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
       });
    });
 
-   // Смена цвета надписи кнопки спойлера на странице отдела снабжения 
+   
 
 });

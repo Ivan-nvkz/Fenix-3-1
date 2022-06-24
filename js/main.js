@@ -520,15 +520,40 @@ $(function () {
 
       // ],
 
-
-
-
-
       prevArrow: '<button class="partners-slider-btn   partners-slider-btn__left"> <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="60" height="60" transform="matrix(-1 0 0 1 60 0)" fill="#BF9D77"/><path fill-rule="evenodd" clip-rule="evenodd" d="M26.2761 30.6667H36V29.3334H26.2761L30.4714 25.1381L29.5286 24.1953L23.7239 30.0001L29.5286 35.8048L30.4714 34.862L26.2761 30.6667Z" fill="white"/></svg></button>',
       nextArrow: '<button class="partners-slider-btn   partners-slider-btn__right">  <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="60" height="60" fill="#F9F9F9"/><path fill-rule="evenodd" clip-rule="evenodd" d="M33.7239 30.6667H24V29.3334H33.7239L29.5286 25.1381L30.4714 24.1953L36.2761 30.0001L30.4714 35.8048L29.5286 34.862L33.7239 30.6667Z" fill="#2B323C"/></svg>   </button>',
 
    });
 
+
+
+   $('.about-slider').slick({
+      adaptiveHeight: false,
+      dots: true,
+      speed: 1000,
+      // variableWidth: false,
+      // slidesToShow: 2,
+      // autoplay: true,
+      // autoplaySpeed: 3000,
+      // responsive: [
+      //    {
+      //       breakpoint: 650,
+      //       settings: {
+      //          speed: 300,
+      //          adaptiveHeight: true,
+      //          autoplay: false,
+      //       }
+      //    },
+
+      // ],
+
+      prevArrow: '<button class="about-slider-btn about-slider-btn__left"><svg width="85" height="85" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="85" height="85" transform="matrix(-1 0 0 1 85 0)" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M38.7761 43.1667H48.5V41.8334H38.7761L42.9714 37.6381L42.0286 36.6953L36.2239 42.5001L42.0286 48.3048L42.9714 47.362L38.7761 43.1667Z" fill="#BF9D77"/></svg></button>',
+      nextArrow: '<button class="about-slider-btn about-slider-btn__right"><svg width="136" height="85" viewBox="0 0 136 85" fill="none" xmlns="http://www.w3.org/2000/svg">   <rect x="0.5" y="0.5" width="136" height="85" fill="#BF9D77"/>    <rect x="0.5" y="0.5" width="136" height="85" stroke="#BF9D77"/>         <path  fill-rule="evenodd" clip-rule="evenodd" d="M103.724 43.4714H30V42.1381H103.724L99.5286 37.9428L100.471 37L106.276 42.8047L100.471 48.6095L99.5286 47.6667L103.724 43.4714Z" fill="white"/>         </svg></button>',
+   });
+
+   $('.').slick({
+
+   });
 
 
 

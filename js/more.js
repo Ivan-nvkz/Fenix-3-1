@@ -1,7 +1,7 @@
 'use strict';
 
 document.addEventListener('DOMContentLoaded', () => {
-   // Показать ещё отзывы  start ==========================================================================
+   
 
    let btnShowAllReviews = document.querySelector('.production-mobile__all-btn');
    let panelWrapper = document.querySelector('.panel-wrapper');
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
    });
-   // Показать ещё отзывы end ==============================================================================
+   
 });
 
 
